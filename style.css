@@ -6,7 +6,7 @@
     padding-right: 2em;
     padding-bottom: 0.4em;
     background-color: #171717;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 #heading{
@@ -104,7 +104,7 @@
 
 .card{
     background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
-    border-radius: 22px;
+    /* border-radius: 22px; */
     transition: all 0.3s;
 }
 
@@ -166,9 +166,12 @@ a{
     left: 50%;
     top: 30%;
     opacity: 0;
-    border-radius: 50px;
+    /* border-radius: 50px; */
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     animation: fade458 1s linear infinite;
+}
+body{
+    display: flex;
 }
 
 @keyframes fade458 {
