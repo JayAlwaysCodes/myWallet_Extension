@@ -1,0 +1,17 @@
+{
+    "name": "KulKonect Wallet",
+    "description": "Transfer Funds to any wallet",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action":{
+        "default_popup": "popup.html",
+        "deafult_icon": "wallet.png"
+    },
+    "icons":{
+        "16": "wallet.png",
+        "32": "wallet.png",
+        "48": "wallet.png",
+        "128": "wallet.png"
+    },
+    "permissions": ["tabs", "bookmarks", "unlimitedStorage", "nativeMessaging"]
+}

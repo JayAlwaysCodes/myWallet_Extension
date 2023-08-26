@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KulKonect Wallet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="card2">
+            <div class="form">
+                <p id="heading">@jardocstech</p>
+                <div class="field">
+                    <input type="number" placeholder="amount" id="amount" class="input-field">
+                </div>
+                <div class="field">
+                    <textarea name="" id="" cols="10" rows="5" type="text" placeholder="Private key" autocomplete="off" id="private_key" class="input-field"></textarea>
+                </div>
+                <div class="field">
+                    <input type="text" placeholder="Transfer Address" id="address" class="input-field">
+                </div>
+
+                <p class="space"></p>
+                <!--loader-->
+                <div class="center" id="center">
+                    <div class="loader">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                        <div class="bar4"></div>
+                        <div class="bar5"></div>
+                        <div class="bar6"></div>
+                        <div class="bar7"></div>
+                        <div class="bar8"></div>
+                        <div class="bar9"></div>
+                        <div class="bar10"></div>
+                        <div class="bar11"></div>
+                        <div class="bar12"></div>
+
+                    </div>
+                </div>
+
+                <small>
+                    <a href="" target="_blank" id="link">Check Your Transaction</a>
+                </small>
+                <!--Loader closed-->
+
+                <div class="btn">
+                    <button id="form" class="button1">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transfer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </button>
+                </div>
+                <button class="check_balance" id="check_balance">Check Balance</button>
+            </div>
+        </div>
+    </div>
+    <script src="ethers.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>
